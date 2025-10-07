@@ -1,4 +1,4 @@
-const ProjectCard = ({ project }) => {
+const ProjectsCard = ({ project }) => {
     return (
         <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
             <img src={project.imageUrl} alt={project.title} className="w-full h-56 object-cover object-top"/>
@@ -13,4 +13,4 @@ const ProjectCard = ({ project }) => {
     );
 };
 
-export default ProjectCard
+export default ProjectsCard

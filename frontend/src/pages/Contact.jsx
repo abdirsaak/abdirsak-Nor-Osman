@@ -1,14 +1,36 @@
+// --- SVG Icons for Contact Page ---
+const MailIcon = (props) => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <rect width="20" height="16" x="2" y="4" rx="2" />
+        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+    </svg>
+);
 
+const LinkedinIcon = (props) => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+        <rect width="4" height="12" x="2" y="9" />
+        <circle cx="4" cy="4" r="2" />
+    </svg>
+);
+
+const InstagramIcon = (props) => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+    </svg>
+);
 
 const Contact = ({ setPage }) => {
     const contacts = [
-        { name: 'Email', value: 'rasaaq@gmail.com', href: 'mailto:rasaaq@gmail.com', icon: <MailIcon /> },
-        { name: 'LinkedIn', value: 'Connect on LinkedIn', href: '#', icon: <LinkedinIcon /> },
-        { name: 'Instagram', value: 'Follow on Instagram', href: '#', icon: <InstagramIcon /> },
+        { name: 'Email', value: 'abdirsaknorosman@gmail.com', href: 'mailto:abdirsaknorosman@gmail.com', icon: <MailIcon /> },
+        { name: 'LinkedIn', value: 'Connect on LinkedIn', href: 'https://www.linkedin.com/in/abdirsak-nor-6ba44523b/', icon: <LinkedinIcon /> },
+        { name: 'Instagram', value: 'Follow on Instagram', href: 'https://www.instagram.com/abdirsaknor/', icon: <InstagramIcon /> },
     ];
     return (
         <div className="w-screen h-screen bg-gray-900 text-white flex flex-col justify-center items-center p-4 font-sans">
-             <button onClick={() => setPage('home')} className="absolute top-8 left-8 text-orange-400 hover:text-orange-300 transition-colors">
+             <button onClick={() => setPage('home')} className="absolute top-8 left-8 text-orange-400 hover:text-orange-300 transition-colors cursor-pointer">
                 &larr; Back to Home
             </button>
             <div className="w-full max-w-md bg-gray-800 rounded-lg shadow-2xl p-8">

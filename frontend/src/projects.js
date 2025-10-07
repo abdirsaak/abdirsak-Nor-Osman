@@ -1,14 +1,18 @@
-const projectsData = [
+import communityHubImage from './assets/images/communityHub.png'; 
+import Hu_passcard from './assets/images/Hu_passcard.png'; 
+
+export const projectsData = [
     {
         title: 'CommunityHub Pro',
-        description: 'A comprehensive member payment report system for communities. Features include search, detailed payment history, financial summaries, and progress tracking.',
-        imageUrl: 'https://i.imgur.com/u1Y3w65.png', // I have uploaded your image and am using the link here
+        description: ' CommunityHub Management System (CMS) to help Community to organize and manage its members and assets. The primary objective is to streamline member registration, track property ownership, manage Community contributions, and improve communication with members.',
+        imageUrl: communityHubImage, // I have uploaded your image and am using the link here
         githubUrl: 'https://github.com' // Replace with your actual GitHub repo link
     },
     {
-        title: 'E-commerce Platform',
-        description: 'A full-stack e-commerce website with features like product catalog, shopping cart, user authentication, and a checkout process. Built with the MERN stack.',
-        imageUrl: 'https://placehold.co/600x400/2d3748/e2e8f0?text=E-commerce+Project',
+        title: 'HU passcard system',
+        description: 
+"The Hormuud University passCARD System is a digital platform designed to automate and unify the university's manual processes for tuition fee payments and student passcard issuance. The system aims to solve problems like long wait times, the cost of lost physical cards, and delays in payment verification by providing a comprehensive, real-time web and mobile application for both students and administrators",
+        imageUrl: Hu_passcard,
         githubUrl: 'https://github.com' // Replace with your actual GitHub repo link
     }
 ];
