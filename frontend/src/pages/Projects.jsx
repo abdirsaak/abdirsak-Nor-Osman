@@ -8,7 +8,7 @@ const Projects = ({ setPage }) => {
         <div className="w-screen min-h-screen bg-gray-900 text-white p-8 font-sans">
             <button 
                 onClick={() => setPage('home')} 
-                className="mb-8 text-orange-400 hover:text-orange-300 transition-colors cursor-pointer"
+                className="text-6xl mb-8 text-orange-400 hover:text-orange-300 transition-colors cursor-pointer"
             >
                 &larr; 
             </button>
