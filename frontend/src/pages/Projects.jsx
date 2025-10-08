@@ -10,7 +10,7 @@ const Projects = ({ setPage }) => {
                 onClick={() => setPage('home')} 
                 className="mb-8 text-orange-400 hover:text-orange-300 transition-colors cursor-pointer"
             >
-                &larr; Back to Home
+                &larr; 
             </button>
             <h1 className="text-5xl font-bold text-center mb-12">My Projects</h1>
             

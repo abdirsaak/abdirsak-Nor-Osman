@@ -31,7 +31,7 @@ const Contact = ({ setPage }) => {
     return (
         <div className="w-screen h-screen bg-gray-900 text-white flex flex-col justify-center items-center p-4 font-sans">
              <button onClick={() => setPage('home')} className="absolute top-8 left-8 text-orange-400 hover:text-orange-300 transition-colors cursor-pointer">
-                &larr; Back to Home
+                &larr; 
             </button>
             <div className="w-full max-w-md bg-gray-800 rounded-lg shadow-2xl p-8">
                  <h1 className="text-4xl font-bold text-center mb-8">Contact Me</h1>
